@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{background-image: url(background.png);
+            background-size: contain;
+        }
+        h1{text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        h2{text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        nav{display: flex;
+        justify-content: space-around;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;
+        border: 3px solid black;
+        border-radius: 9px;
+        position: sticky;
+        top: 10px;
+        background-color: #74e0e2;
+        z-index: 1;
+    }
+    a{text-decoration: none;color: #000000;}
+    .hero{
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        padding: 15px;
+        border: 3px solid black;
+        margin: 19px;
+        border-radius: 20px;
+        background-color:  #74e0e2;
+        line-height: 39px;
+        height: 180px;
+        width: 900px;
+    }
+    .Aboutme{
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        padding: 15px;
+        border: 3px solid black;
+        margin: 19px;
+        border-radius: 20px;
+        background-color:  #74e0e2;
+        line-height: 39px;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        padding: 15px;
+        border: 3px solid black;
+        margin: 19px;
+        border-radius: 20px;
+        background-color:  #74e0e2;
+        line-height: 39px;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        padding: 15px;
+        border: 3px solid black;
+        margin: 19px;
+        border-radius: 20px;
+        background-color:  #74e0e2;
+        line-height: 39px;
+    }
+    .Education{
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        padding: 15px;
+        border: 3px solid black;
+        margin: 19px;
+        border-radius: 20px;
+        background-color:  #74e0e2;
+        line-height: 39px;
+    }
+    .contact{flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 600px;
+        border: 3px solid black;
+        height: 280px;
+        width: 300px;    
+        border-radius: 20px;
+        background-color:  #74e0e2;
+    }
+    footer{display: flex;justify-content: center;align-items: center;border: 3px solid black;height: 50px;border-radius: 30px;background-color: #74e0e2;gap: 50px;}
+    button[type="submit"]{width: 500px;display: flex;justify-content: center;align-items: center;}
+    .hero:hover{background-color: #15a5a7;transition-duration: 0.15s;}
+    .Aboutme:hover{background-color: #15a5a7;transition-duration: 0.15s;}
+    .skills:hover{background-color: #15a5a7;transition-duration: 0.15s;}
+    .projects:hover{background-color: #15a5a7;transition-duration: 0.15s;}
+    .Education:hover{background-color: #15a5a7;transition-duration: 0.15s;}
+    .contact:hover{background-color: #15a5a7;transition-duration: 0.15s;}
+
+    img{height: 350px;width: 250px;
+        border-radius: 20%;
+        position: relative;
+        left: 1100px;
+        top: -5px;
+        right: 50px;
+        box-sizing: content-box;
+        z-index: 0;
+        
+    }
+        .text{
+            position: relative;
+            bottom: 200px;
+            
+        }
+        .collabmail{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        .collabphone{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    </style>
+</head>
+<body>
+    <h1>PORTFOLIO</h1>
+    <nav>
+        <div id="pop nav1"><a href="#hero">Hero</a></div>
+        <div id="pop nav2"><a href="#Aboutme">About</a></div>
+        <div id="pop nav3"><a href="#skills">Skills</a></div>
+        <div id="pop nav4"><a href="#projects">Projects</a></div>
+        <div id="pop nav5"><a href="#Education">Education</a></div>
+        <div id="pop nav6"><a href="#contact">Collaborate</a></div>
+    </nav>
+    <h2>HERO</h2>
+    <div class="hero" id="hero"> 
+        <img src="photo.png" alt="photo">
+    <div class="text">
+        <div id="name">Name : S.Aditya</div>
+        <div id="age">Age : 18years</div>
+        <div id="Role">Role : Aspiring Web Developer</div>
+        <div id="intro">Passion : I'm a computer science student exploring web development and learning to turn ideas into interactive websites.</div>
+    </div>
+</div>
+    <h2>About</h2>
+    <div class="Aboutme" id="Aboutme">
+        <div>1 . Computer Science student passionate about technology and software development.<br>
+2 . Aspiring web developer currently building skills in HTML, CSS, JavaScript, and Git.<br>
+3 . Enjoy creating websites and turning ideas into real-world projects.<br>
+4 . Interested in AI, software development, and emerging technologies.<br>
+5 . Continuously learning, experimenting, and improving through hands-on projects.</div>
+    </div>
+    <h2>Skills</h2>
+    <div class="skills" id="skills">
+        <div>1 . Web Development — HTML, CSS, JavaScript<br>2 . Programming — Java, Python, Problem Solving<br>3 . Version Control — Git, GitHub <br>4 . Development Tools — VS Code, Linux, Chrome DevTools<br>5 . Currently Learning — React, Backend Development, APIs, AI/ML</div>
+    </div>
+    <h2>PROJECTS</h2>
+    <div class="projects" id="projects">1 . Personal Portfolio Website<br>
+Built a personal portfolio using HTML and CSS to showcase my skills, projects, and learning journey.<br>
+2 . Book Library Website<br>
+Created a structured webpage displaying books using HTML tables, semantic elements, and basic styling.<br>
+3 . Landing Page<br>
+Designed a responsive landing page focusing on layout, navigation, typography, and user-friendly design.<br>
+4 . To-Do List<br>
+Built a simple task management application to practice JavaScript, user interaction, and DOM manipulation.<br>
+5 . Calculator<br>
+Created a basic calculator to practice programming logic, JavaScript functions, and event handling.</div>
+<h2>EDUCATION</h2>
+<div class="Education" id="Education">
+   1 . Scaler School of Technology<br>
+B.Tech / Undergraduate — 1st Year
+Currently pursuing my undergraduate studies with a focus on technology, programming, and software development.<br>
+2 . Ascent Junior College<br>
+11th & 12th Grade
+Completed higher secondary education with a focus on Mathematics, Physics, and Chemistry.<br>
+3 . PEN School, Visakhapatnam
+<br>
+Completed my schooling in Visakhapatnam.
+</div>
+<h2>Collaborate (Fill this form to work with me)</h2>
+<div class="contact" id="contact">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" class="name" placeholder="write your name here"><br>
+    <label for="mobile">Mobile No:</label><br>
+    <input type="mobile" id="number" class="mobile" placeholder="Mobile Number"><br>
+    <label for="name">Email:</label><br>
+    <input type="Age" id="Email" class="Email" placeholder="Email"><br>
+    <input type="button" value="submit">
+</div><br>
+<footer>
+    <div class="collabphone">
+        contact : +91 9876543210
+    </div><br>
+    <div class="collabmail">
+        Email : abc123@gmail.com
+</footer>
+</body>
+</html>
